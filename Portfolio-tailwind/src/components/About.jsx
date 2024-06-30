@@ -39,8 +39,8 @@ const About = () => {
 
       <div className="relative group">
         <div
-          className="w-full h-full absolute -inset-1 bg-gradient-to-r from-purple-100
-             to-orange-900 rounded-lg
+          className="w-full h-full absolute -inset-1 bg-gradient-to-r from-blue-200
+             to-blue-900 rounded-lg
             blur opacity-25 group-hover:opacity-100 transition duration-300"
         ></div>
         <div className="relative w-full p-4 bg-white bg-opacity-10 backdrop-blur-lg rounded-lg">

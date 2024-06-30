@@ -17,11 +17,11 @@ import ScrollToTop from "./ScrollToTop";
 const Hero = () => {
   return (
     <div
-      className="max-w-[1200px] mx-auto grid md:grid-cols-8 gap-6 p-10 md:p-0 md:py-40"
+      className="max-w-[1200px] mx-auto grid md:grid-cols-8 gap-6 p-10 md:p-0 md:py-40 "
       id="home"
     >
-      <div className="grid grid-cols-1 md:grid-cols-2 md:col-span-5 glass p-8">
-        <div className="my-auto">
+      <div className="grid grid-cols-1 md:grid-cols-2 md:col-span-5 card card-glass p-8  ">
+        <div className="my-auto ">
           <img
             className="w-[200px] md:w-[800px] mx-auto h-auto "
             src={profilepic}
@@ -29,7 +29,7 @@ const Hero = () => {
           />
         </div>
 
-        <div className="my-auto ml-8  flex-col">
+        <div className="my-auto ml-8  flex-col ">
           <p className="text-2xl md:text-4xl font-bold text-gray-200">
             Hi! I am <br /> Balaji D <br />
             <TypeAnimation
@@ -51,7 +51,7 @@ const Hero = () => {
       </div>
 
       <div className="grid grid-cols-1  md:col-span-3 gap-6">
-        <div className="text-5xl p-12 glass">
+        <div className="text-5xl p-12 glass ">
           <p className="text-gray-200 text-xl font-bold mb-4 text-center">
             My Tech Stack
           </p>
@@ -67,7 +67,7 @@ const Hero = () => {
           </div>
         </div>
 
-        <div className="flex justify-center items-center flex-col glass relative z-10">
+        <div className="flex justify-center items-center flex-col glass relative">
           <div className="text-7xl flex justify-start gap-4">
             <a href="https://www.linkedin.com/in/codewithbalaji/">
               <AiFillLinkedin className="text-gray-600 hover:text-blue-500 transform duration-150" />

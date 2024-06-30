@@ -17,7 +17,7 @@ const Experience = () => {
   
           <div className="mb-[20px] text-white bg-gray-700/20 p-4 rounded-3xl max-w-[300px] sm:max-w-[600px] mx-auto">
               <p>ReactJS Developer (CodSoft)</p>
-              <p className='text-gray-400'>(2020 - Present)</p>
+              <p className='text-gray-400'>(2024 - Present)</p>
               <p className='text-gray-500'>
               Creating Web Apps using React js and tailwind css.
               </p>

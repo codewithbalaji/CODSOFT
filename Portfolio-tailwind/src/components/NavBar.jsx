@@ -15,11 +15,11 @@ const Navbar = () => {
             <h1 className='text-3xl font-bold  ml-4'>Portfolio</h1>
             <ul className='hidden md:flex z-50'>
                 
-                <li className='p-5'><a href='#portfolio'>Projects</a></li>
-                <li className='p-5'><a href='#experience'>Experience</a></li>
-                <li className='p-5'><a href='#about'>Skills</a></li>
+                <li className='p-5'><a href='#portfolio' className='text-xl'>Projects</a></li>
+                <li className='p-5'><a href='#experience'className='text-xl'>Experience</a></li>
+                <li className='p-5'><a href='#about'className='text-xl'>Skills</a></li>
                 <li className='p-5'><a href='#contact' className='font-bold px-4 py-2 
-                rounded-xl bg-primary-color'>Contact</a></li>
+                rounded-xl bg-primary-color text-xl'>Contact</a></li>
             </ul>
 
             <div onClick={handleNav} className='z-50 block md:hidden '>

@@ -11,18 +11,17 @@ body {
 
 span,
 .primary-color {
-  background-image: linear-gradient(to right, #3498db, #2ecc71, #e74c3c);
+  background-image: linear-gradient(to right, #5ddcff, #3c67e3 , #4e00c2);
   -webkit-background-clip: text;
   color: transparent;
 }
 
 .bg-primary-color {
-  @apply bg-gradient-to-r from-[#3498db] via-[#2ecc71] to-[#e74c3c];
+  @apply bg-gradient-to-r from-[#5ddcff] via-[#3c67e3] to-[#4e00c2];
 }
 
 h2 {
   @apply text-2xl md:text-5xl;
-  font-family: "Pacifico", cursive;
 }
 
 p {
@@ -37,13 +36,13 @@ p {
   box-shadow: 0 10px 40px 0 rgba(0, 0, 0, 0.3);
 }
 
-.shiny-effect {
-  position: absolute;
-  border-radius: 50%;
-  pointer-events: none;
-  z-index: 1;
-  background: radial-gradient(circle, rgba(52, 152, 219, 0.5), transparent 70%);
+.card-glass {
+  background: linear-gradient(135deg, rgba(26, 26, 46, 0.1), rgba(255, 255, 255, 0));
+  border-radius: 15px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 10px 40px 0 rgba(0, 0, 0, 0.3);
 }
+
 
 .active-project {
   position: relative;
@@ -64,4 +63,49 @@ p {
   background-color: #2ecc71;
   width: 80%;
   bottom: -10px;
+}
+
+@property --rotate {
+  syntax: "<angle>";
+  initial-value: 132deg;
+  inherits: false;
+}
+
+:root {
+  --card-height: 65vh;
+  --card-width: calc(var(--card-height) / 1.5);
+}
+
+.card {
+  background: #1a1a2e;
+  position: relative;
+  color: rgb(88 199 250 / 0%);
+}
+
+
+
+
+.card::before {
+  content: "";
+  width: 103%;
+  height: 104%;
+  border-radius: 15px;
+  background-image: linear-gradient(
+    var(--rotate)
+    , #5ddcff, #3c67e3 43%, #4e00c2);
+    position: absolute;
+    z-index: -1;
+    top: -2%;
+    left: -1.5%;
+    animation: spin 2.5s linear infinite;
+}
+
+
+@keyframes spin {
+  0% {
+    --rotate: 0deg;
+  }
+  100% {
+    --rotate: 360deg;
+  }
 }

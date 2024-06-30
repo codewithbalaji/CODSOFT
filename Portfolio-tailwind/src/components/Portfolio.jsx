@@ -4,67 +4,58 @@ import project2 from "../assets/project2.png";
 import project3 from "../assets/project3.png";
 import project4 from "../assets/project4.png";
 import project5 from "../assets/project5.png";
-import project6 from "../assets/project6.png";
 import arrow from "../assets/arrow.png";
 import { AiFillGithub } from "react-icons/ai";
+
 
 const projects = [
   {
     img: project1,
-    title: "Project #1",
-    description: "UI for frontend development using React.",
+    title: "Hunger Free #1",
+    description: "A sophisticated user interface for frontend development, crafted using ReactJS and Bootstrap 5.",
     links: {
-      site: "#",
-      github: "#",
+      site: "https://hungerfree.vercel.app/",
+      github: "https://github.com/codewithbalaji/Hunger-Free-Webiste",
     },
   },
   {
     img: project2,
-    title: "Project #2",
-    description: "A fullstack application built with Node.js and MongoDB.",
+    title: "Hunger Free App #2",
+    description: "A progressive web application (PWA) built with ReactJS and Firebase, delivering seamless performance and offline capabilities.",
     links: {
-      site: "#",
-      github: "#",
+      site: "https://hungerfree-app.vercel.app/",
+      github: "https://github.com/codewithbalaji/hunger-free-web-app",
     },
   },
   {
     img: project3,
-    title: "Project #3",
-    description: "A responsive website designed with modern CSS.",
+    title: "Fruit Shop #3",
+    description: "A modern, responsive e-commerce website developed with ReactJS and Tailwind CSS for optimal user experience across all devices.",
     links: {
-      site: "#",
-      github: "#",
+      site: "https://fruitshop-tailwind.vercel.app/",
+      github: "https://github.com/codewithbalaji/fruit-shop-tailwind-css",
     },
   },
   {
     img: project4,
-    title: "Project #4",
-    description: "An e-commerce platform with various features.",
+    title: "Landing Page #4",
+    description: "A professional business showcase website designed with React and Bootstrap 5, highlighting key features and services.",
     links: {
-      site: "#",
-      github: "#",
+      site: "https://sribalajiprinters.vercel.app/",
+      github: "https://github.com/codewithbalaji/SriBalajiPrinters",
     },
   },
   {
     img: project5,
-    title: "Project #5",
-    description: "A mobile-friendly application using React Native.",
+    title: "Spotify Clone #5",
+    description: "A fully responsive Spotify+ clone, meticulously developed using ReactJS and Tailwind CSS for a seamless and immersive user experience.",
     links: {
-      site: "#",
-      github: "#",
-    },
-  },
-  {
-    img: project6,
-    title: "Project #6",
-    description:
-      "A data visualization project using D3.js and other libraries.",
-    links: {
-      site: "#",
-      github: "#",
+      site: "https://spotify-codewithbalaji.vercel.app/",
+      github: "https://github.com/codewithbalaji/Spotify-Clone",
     },
   },
 ];
+
 
 const Portfolio = () => {
   const [currentProject, setCurrentProject] = useState(0);
@@ -102,7 +93,7 @@ const Portfolio = () => {
         </ul>
       </div>
 
-      <div className="z-10 glass  w-full border-2 col-span-5">
+      <div className="z-10 glass  w-full border-2 col-span-5 ">
         <div className="w-full h-80">
           <img
             src={projects[currentProject].img}
