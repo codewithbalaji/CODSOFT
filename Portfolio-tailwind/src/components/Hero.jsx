@@ -13,6 +13,7 @@ import {
 } from "react-icons/di";
 import { SiTailwindcss } from "react-icons/si";
 import ScrollToTop from "./ScrollToTop";
+import { RiNextjsFill } from "react-icons/ri";
 
 const Hero = () => {
   return (
@@ -58,11 +59,11 @@ const Hero = () => {
           <div className="grid grid-cols-4 gap-4">
             <DiHtml5 className="text-orange-600" />
             <DiCss3 className="text-blue-600" />
-            <DiSass className="text-pink-600" />
             <DiBootstrap className="text-purple-600" />
             <SiTailwindcss className="text-blue-500" />
             <DiJavascript1 className="text-yellow-500" />
             <DiReact className="text-blue-500" />
+            <RiNextjsFill />
             <DiNodejsSmall className="text-green-500" />
           </div>
         </div>

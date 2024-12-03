@@ -11,43 +11,44 @@ import { AiFillGithub } from "react-icons/ai";
 const projects = [
   {
     img: project1,
-    title: "Hunger Free #1",
-    description: "A sophisticated user interface for frontend development, crafted using ReactJS and Bootstrap 5.",
+    title: "Code Blog Hub",
+    description: "A Full-Stack Blogging Platform with Next.js, MongoDB, and Auth.js",
     links: {
-      site: "https://hungerfree.vercel.app/",
-      github: "https://github.com/codewithbalaji/Hunger-Free-Webiste",
+      site: "https://chennaibytes.vercel.app/",
+      github: "https://github.com/codewithbalaji/",
     },
   },
   {
     img: project2,
-    title: "Hunger Free App #2",
+    title: "Hunger Free App",
     description: "A progressive web application (PWA) built with ReactJS and Firebase, delivering seamless performance and offline capabilities.",
     links: {
       site: "https://hungerfree-app.vercel.app/",
       github: "https://github.com/codewithbalaji/hunger-free-web-app",
     },
   },
+  
   {
     img: project3,
-    title: "Fruit Shop #3",
-    description: "A modern, responsive e-commerce website developed with ReactJS and Tailwind CSS for optimal user experience across all devices.",
+    title: "Virtual Assist",
+    description: "AI powered virtual assistant using mern stack",
     links: {
-      site: "https://fruitshop-tailwind.vercel.app/",
-      github: "https://github.com/codewithbalaji/fruit-shop-tailwind-css",
+      site: "https://virtualassit.vercel.app/",
+      github: "https://github.com/codewithbalaji",
     },
   },
   {
     img: project4,
-    title: "Landing Page #4",
-    description: "A professional business showcase website designed with React and Bootstrap 5, highlighting key features and services.",
+    title: "Chennai Bytes",
+    description: "Agency website using Next.js, tailwind css",
     links: {
-      site: "https://sribalajiprinters.vercel.app/",
-      github: "https://github.com/codewithbalaji/SriBalajiPrinters",
+      site: "https://chennaibytes.vercel.app/",
+      github: "https://github.com/codewithbalaji/",
     },
   },
   {
     img: project5,
-    title: "Spotify Clone #5",
+    title: "Spotify Clone",
     description: "A fully responsive Spotify+ clone, meticulously developed using ReactJS and Tailwind CSS for a seamless and immersive user experience.",
     links: {
       site: "https://spotify-codewithbalaji.vercel.app/",
