@@ -1,60 +1,64 @@
 import { useState } from "react";
-import project1 from "../assets/project1.png";
-import project2 from "../assets/project2.png";
-import project3 from "../assets/project3.png";
-import project4 from "../assets/project4.png";
-import project5 from "../assets/project5.png";
 import arrow from "../assets/arrow.png";
 import { AiFillGithub } from "react-icons/ai";
 
 
 const projects = [
   {
-    img: project1,
+    img: "https://res.cloudinary.com/dyj3rywju/image/upload/v1743583638/codeblog-min_dcpxkm.png",
     title: "Code Blog Hub",
-    description: "A Full-Stack Blogging Platform with Next.js, MongoDB, and Auth.js",
+    description: "A Full-Stack Blogging Platform with Next.js, MongoDB, and Auth.js. Features secure authentication and user-friendly blog post management.",
     links: {
-      site: "https://chennaibytes.vercel.app/",
-      github: "https://github.com/codewithbalaji/",
+      site: "https://codebloghub.vercel.app/",
+      github: "https://github.com/codewithbalaji/codebloghub",
     },
   },
   {
-    img: project2,
-    title: "Hunger Free App",
-    description: "A progressive web application (PWA) built with ReactJS and Firebase, delivering seamless performance and offline capabilities.",
+    img: "https://res.cloudinary.com/dyj3rywju/image/upload/v1743583637/tespa-min_htfnp6.png",
+    title: "Tespa Metrology",
+    description: "A MERN Landing Page for the tespa metrology.",
     links: {
-      site: "https://hungerfree-app.vercel.app/",
-      github: "https://github.com/codewithbalaji/hunger-free-web-app",
+      site: "https://tespaindia.vercel.app/",
+      github: "https://github.com/codewithbalaji/tespa-frontend",
     },
   },
-  
+
   {
-    img: project3,
+    img: "https://res.cloudinary.com/dyj3rywju/image/upload/v1743583634/virtual_assitant-min_hope0y.png",
     title: "Virtual Assist",
-    description: "AI powered virtual assistant using mern stack",
+    description: "AI-powered assistant using MERN stack with Gemini API integration for enhanced task automation and user interaction.",
     links: {
-      site: "https://virtualassit.vercel.app/",
-      github: "https://github.com/codewithbalaji",
+      site: "https://virtualassist.vercel.app/",
+      github: "https://github.com/codewithbalaji/virtual-assist",
     },
   },
   {
-    img: project4,
-    title: "Chennai Bytes",
-    description: "Agency website using Next.js, tailwind css",
+    img: "https://res.cloudinary.com/dyj3rywju/image/upload/v1743583635/harimidhu-min_v6iehg.png",
+    title: "Harimidhu Organic",
+    description: "Organic products e-commerce website built with Next.js and Tailwind CSS, powered by Firebase backend with Hostinger and Netlify hosting.",
     links: {
-      site: "https://chennaibytes.vercel.app/",
-      github: "https://github.com/codewithbalaji/",
+      site: "https://harimidhuorganic.com/",
+      github: "https://github.com/codewithbalaji/harimidhu-organic",
     },
   },
   {
-    img: project5,
-    title: "Spotify Clone",
-    description: "A fully responsive Spotify+ clone, meticulously developed using ReactJS and Tailwind CSS for a seamless and immersive user experience.",
+    img: "https://res.cloudinary.com/dyj3rywju/image/upload/v1743583637/sribalajiprinters-min_a9xv5i.png",
+    title: "Sri Balaji Printers",
+    description: "Modern printing shop website with WhatsApp integration and Web3 forms, built using Next.js and ShadCN for optimal SEO and performance.",
     links: {
-      site: "https://spotify-codewithbalaji.vercel.app/",
-      github: "https://github.com/codewithbalaji/Spotify-Clone",
+      site: "https://www.sribalajiprinters.studio",
+      github: "https://github.com/codewithbalaji/sri-balaji-printers",
     },
   },
+  {
+    img: "https://res.cloudinary.com/dyj3rywju/image/upload/v1743583636/freshdel-min_wefctf.png",
+    title: "FreshDel",
+    description: "MERN-based e-commerce platform for fresh produce delivery with Razorpay integration and comprehensive admin panel for order management.",
+    links: {
+      site: "https://res.cloudinary.com/dyj3rywju/image/upload/v1743578478/freshdel_exsked.png",
+      github: "https://github.com/codewithbalaji/freshdel",
+    },
+  }
 ];
 
 
@@ -130,3 +134,4 @@ const Portfolio = () => {
 };
 
 export default Portfolio;
+
