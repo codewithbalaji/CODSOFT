@@ -1,4 +1,4 @@
-import project1 from "../assets/project1.png";
+
 import project3 from "../assets/project7.png";
 import {
   DiJavascript1,
